@@ -8,13 +8,19 @@
     "build": "vite build",
     "preview": "vite preview",
     "test:unit": "vitest",
+    "test": "jest",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
     "vue": "^3.4.15",
-    "vue-router": "^4.2.5"
+    "sweetalert2": "^11.6.13",
+    "vue-router": "^4.2.5",
+    "axios": "^1.6.2",
+    "axios-mock-adapter": "^1.22.0"
   },
   "devDependencies": {
+    "axios": "^1.6.2",
+    "@types/node": "^18.18.5",
     "@vitejs/plugin-vue": "^5.0.3",
     "@vue/test-utils": "^2.4.4",
     "eslint": "^8.49.0",
